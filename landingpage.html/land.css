@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 1100PX;
+    background-image:url(image88.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8px;
+    background-repeat: no-repeat;
+    height: 600px;
+    overflow: hidden; 
+
+} 
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    }
+.icon{
+    width: 200px;
+    float: left;
+    height: 700px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+ul li  a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.8s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+}
+.search{
+    width: 290px;
+    float: left;
+    margin-left:180px;
+    padding-top: 1rem;
+}
+.srch{
+    font-family: 'Time New Roman';
+    width: 150px;
+    height: 20px;
+    background:transparent ;
+    border:1px solid orange ;
+    margin-top: 12px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background:orange ;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+
+}
+.btech{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 180px;
+    width: 160px;
+  
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px ;
+    font-family: Arial ;
+    line-height: 25px;
+}
+.contect .h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cs{
+    width: 140px;
+    height: 35px;
+    background: #ff7200;
+    border:2px none;
+    border-radius: 6px;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    transition: .6s ease;
+
+}
+.content .cs .a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cs:hover{
+    background-color: pink;
+    color:m ;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.footer{
+    border: 1px solid black ;
+    height: 130PX;
+    width: 1100PX;
+    display: flex;
+    padding-top: 1.4rem;
+    gap: 14rem;
+    background-image: linear-gradient( to right,yellow , #ff00ff 80% );
+    
+}
+.head{
+    float: left;
+    padding-left: 2rem;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 600; 
+    transition: 0.5s ease;  
+}
+head:hover{
+    color: #ff00ff;
+}
+.heed2{
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 600;
+}
+.ram{
+    padding-top: 1rem;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.8s ease;
+}
+.ram:hover{
+    color: darkblue;
+}
